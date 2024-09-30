@@ -1,0 +1,21 @@
+{
+  "product": [
+    {
+      "code": 1,
+      "name": "IP 16",
+      "descriptionPr": "Hàng mới",
+      "categoryId": 1,
+      "price": 100,
+      "quantity": 1,
+      "date": "2024-11-11"
+    }
+
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Điện thoại",
+      "description": "công nghệ"
+    }
+  ]
+}

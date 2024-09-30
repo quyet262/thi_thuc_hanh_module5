@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProductList from './components/ProductList';
+import ProductForm from './components/ProductForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <div className="App">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+              <a className="navbar-brand" href="/">Dược phẩm ACB</a>
+              <div className="collapse navbar-collapse">
+                <ul className="navbar-nav ml-auto">
+                  <li className="nav-item">
+                    <a className="nav-link" href="/">Danh sách sản phẩm</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/add-product">Thêm mới</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div className="container mt-4">
+            <Routes>
+              <Route path="/" element={<ProductList />} />
+              <Route path="/add-product" element={<ProductForm />} />
+            </Routes>
+          </div>
+        </div>
+      </Router>
   );
 }
 

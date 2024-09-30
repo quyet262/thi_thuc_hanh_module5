@@ -1,21 +1,131 @@
 {
-  "product": [
-    {
-      "code": 1,
-      "name": "IP 16",
-      "descriptionPr": "Hàng mới",
-      "categoryId": 1,
-      "price": 100,
-      "quantity": 1,
-      "date": "2024-11-11"
-    }
-
-  ],
-  "category": [
+  "products": [
     {
       "id": 1,
-      "name": "Điện thoại",
-      "description": "công nghệ"
+      "productCode": "PROD-0001",
+      "name": "Xe lăn",
+      "description": "Tiện ích",
+      "categoryId": 2,
+      "price": 1500,
+      "quantity": 5,
+      "importDate": "01/09/2023"
+    },
+    {
+      "id": 1,
+      "productCode": "PROD-0001",
+      "name": "Blackmores omega",
+      "description": "Mới nhất thị trường",
+      "categoryId": 1,
+      "price": 1500,
+      "quantity": 5,
+      "importDate": "01/09/2023"
+    },
+    {
+      "id": 1,
+      "productCode": "PROD-0001",
+      "name": "Becberin",
+      "description": "Trị đau dụng",
+      "categoryId": 1,
+      "price": 1500,
+      "quantity": 5,
+      "importDate": "01/09/2023"
+    },
+    {
+      "productCode": "PROD-1234",
+      "name": "Paradox",
+      "description": "Trị đau đầu hạ sốt",
+      "categoryId": 2,
+      "price": "10000",
+      "quantity": "5",
+      "importDate": "2024-09-29",
+      "id": 2
+    },
+    {
+      "productCode": "PROD-0001",
+      "name": "adasd",
+      "description": "ádasdasd",
+      "categoryId": 1,
+      "price": "12343",
+      "quantity": "14",
+      "importDate": "2024-09-25",
+      "id": 3
+    },
+    {
+      "productCode": "PROD-0009",
+      "name": "thuốc ho",
+      "description": "ádasdas",
+      "categoryId": 1,
+      "price": "50000",
+      "quantity": "8",
+      "importDate": "2024-09-28",
+      "id": 4
+    },
+    {
+      "productCode": "PROD-0011",
+      "name": "Iphone 15ProMax",
+      "description": "ngon rẻ",
+      "categoryId": 2,
+      "price": "10000000",
+      "quantity": "7",
+      "importDate": "2024-09-29",
+      "id": 5
+    },
+    {
+      "productCode": "PROD-0011",
+      "name": "Iphone 15ProMax",
+      "description": "quá tốt",
+      "categoryId": 2,
+      "price": "12000000",
+      "quantity": "18",
+      "importDate": "2024-09-27",
+      "id": 6
+    },
+    {
+      "productCode": "PROD-0016",
+      "name": "Gậy",
+      "description": "Hỗ trợ",
+      "categoryId": 2,
+      "price": "10000000",
+      "quantity": "100",
+      "importDate": "2024-09-30",
+      "id": 7
+    },
+    {
+      "productCode": "PROD-0011",
+      "name": "song gio",
+      "description": "sda",
+      "categoryId": 1,
+      "price": "10000000",
+      "quantity": "14",
+      "importDate": "2024-09-25",
+      "id": 8
+    },
+    {
+      "productCode": "PROD-00111",
+      "name": "Hồng tin",
+      "description": "sdfsfd",
+      "categoryId": 2,
+      "price": "500",
+      "quantity": "14",
+      "importDate": "2024-09-29",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Thực Phẩm chức năng",
+      "description": "Sản phẩm sức khoẻ"
+    },
+    {
+      "id": 2,
+      "name": "Thiết bị y tế",
+      "description": "công cụ y tế"
+    },
+    {
+      "id": 3,
+      "name": "Dược phẩm",
+      "description": "Thuốc"
     }
   ]
 }
